@@ -14,16 +14,12 @@ while slmht > 0:
   choice=input("choice: ")
   slmatkon=random.randint(0,1)
   helhelt= plhth+ha
-  dubistmiss=random.randint(0,1)
   attack=random.randint(1,2)
 
 
   if choice == "1":
-    if dubistmiss == "1":
-      print("You missed! the health of the slime is:", slmht)
-    else:
-      slmht=slmht-attack
-      print("you attacked the slime. It's health is now:", slmht)
+    slmht=slmht-attack
+    print("you attacked the slime. It's health is now:", slmht)
 
   elif choice == "2":
     if helhelt >= 25:
