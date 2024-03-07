@@ -15,7 +15,7 @@ elif difsel == 2:
  print("welcome to riviting gameplay")
  sleep(1)
  import pidmsmedium
-else
+else:
  print("welcome to riviting gameplay")
  sleep(1)
  import pidmshard
