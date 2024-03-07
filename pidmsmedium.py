@@ -9,23 +9,23 @@ ha=3
 
 
 while slmht > 0:
-  print("The slime has", slmht, "health, you have", plhth, "Do you attack, run or heal")
+  print("The slime has", slmht, "health, you have", plhth, "Do you attack (1), heal (2), or run (3)")
 
-  choice=input("attack, run or heal?: ")
+  choice=input("choice: ")
   slmatkon=random.randint(0,1)
   helhelt= plhth+ha
   dubistmiss=random.randint(0,1)
   attack=random.randint(1,2)
 
 
-  if choice == "attack":
+  if choice == "1":
     if dubistmiss == "1":
       print("You missed! the health of the slime is:", slmht)
     else:
       slmht=slmht-attack
       print("you attacked the slime. It's health is now:", slmht)
 
-  elif choice == "heal":
+  elif choice == "2":
     if helhelt >= 25:
       print("You cannot heal at this high health")
     else:
