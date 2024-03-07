@@ -4,6 +4,7 @@ print()
 print("Easy (1) ")
 print("Regular (2) ")
 print("Hard (3) ")
+print("Tutorial (4)")
 
 difsel=input("choose difficulty: ")
 
@@ -15,6 +16,10 @@ elif difsel == "2":
  print("welcome to riviting gameplay")
  time.sleep(1)
  import pidmsmedium
+elif difsel == "4" :
+  print("Tutorial it is \n \n")
+  time.sleep(1)
+  import tuto
 else:
  print("welcome to riviting gameplay")
  time.sleep(1)
