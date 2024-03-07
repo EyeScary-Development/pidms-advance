@@ -1,5 +1,5 @@
 # pidms-advance
-Collectiopn of pidms games with various difficulties, some derived from other projects
+Collection of pidms games with various difficulties, some derived from other projects, oh yeah and a tutorial cause the controls are So DifFiCuLT
 
 # what is pidms?
 
