@@ -33,6 +33,7 @@ while slmht > 0:
       print("You healed", ha, "health. You now have", plhth, "health")
   elif choice == "3":
     print("You ran away, seriously?")
+    break
 
   if slmatkon == 1:
     plhth -= slmatk
