@@ -1,2 +1,2 @@
 # pidms-advance
-Collectiopn of padms games with various difficulties
+Collectiopn of pidms games with various difficulties, some derived from other projects
