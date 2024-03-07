@@ -9,13 +9,13 @@ difsel=input("choose difficulty: ")
 
 if difsel == 1:
  print("welcome to riviting gameplay")
- sleep(1)
+ time.sleep(1)
  import pidmseasy
 elif difsel == 2:
  print("welcome to riviting gameplay")
- sleep(1)
+ time.sleep(1)
  import pidmsmedium
 else:
  print("welcome to riviting gameplay")
- sleep(1)
+ time.sleep(1)
  import pidmshard
