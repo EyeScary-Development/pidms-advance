@@ -31,7 +31,7 @@ while slmht > 0:
     else:
       plhth += ha
       print("You healed", ha, "health. You now have", plhth, "health")
-  elif choice == "run":
+  elif choice == "3":
     print("You ran away, seriously?")
 
   if slmatkon == 1:
