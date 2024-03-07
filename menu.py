@@ -7,7 +7,7 @@ print("Hard (3) ")
 
 difsel=input("choose difficulty: ")
 
-if difsel == 1
+if difsel == 1:
  print("welcome to riviting gameplay")
  sleep(1)
  import pidmseasy
