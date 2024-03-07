@@ -24,7 +24,7 @@ while slht > 0:
             print("you dealt", atk, "damage, the slime has", slht, "hp remaining")
 
     elif choice == "2":
-        if ham > 25:
+        if ham > 20:
             print("your health is too high to heal")
         else:
             plhth += healrate
