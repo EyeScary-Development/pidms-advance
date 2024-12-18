@@ -35,6 +35,10 @@ while slmht > 0:
     plhth -= slmatk
     print("The slime attacked you! you have", plhth, "health")
 
-  if slmht <= 1:
+  if slmht < 1:
     print("The slime is die")
+    break
+
+  if plhth < 1:
+    print("The you is die")
     break
